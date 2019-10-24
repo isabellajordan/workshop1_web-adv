@@ -1,0 +1,85 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+.Display {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  width: 60%;
+  background-color: white;
+  position: relative;
+}
+
+.iceCream {
+  width: 100%;
+  height: 100%;
+}
+
+.iceCream__contBall {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 80%;
+}
+
+.iceCream__ball {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  background-image: url("/img/napolitan.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+  width: 100%;
+  height: 20%;
+}
+
+.iceCream__cone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  background-image: url("/img/cone.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 20%;
+}
+/*# sourceMappingURL=Display.css.map */

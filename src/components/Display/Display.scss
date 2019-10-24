@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+.Display {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 60%;
+  background-color: rgb(255, 255, 255);
+
+  position: relative;
+}
+
+.iceCream {
+  width: 100%;
+  height: 100%;
+
+  &__contBall{    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+   
+    align-items: center;
+    width: 100%;
+    height: 80%;
+  }
+
+  &__ball {
+
+    flex-shrink: 0;
+    background-image: url("/img/napolitan.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+     transform: translateY(10px);
+    width: 100%;
+    height: 20%;
+
+  }
+
+  &__cone {
+    display: flex;
+    flex-shrink: 0;
+    background-image: url("/img/cone.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 20%;
+  }
+}
